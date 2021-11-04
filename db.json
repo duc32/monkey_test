@@ -26,6 +26,24 @@
       "C": "Dưới nước",
       "D": "Trên trời",
       "dapan": "C"
+    },
+    {
+      "question": "Một năm có bao nhiêu ngày ?",
+      "A": "2",
+      "B": "78",
+      "C": "10",
+      "D": "365",
+      "dapan": "D",
+      "id": 4
+    },
+    {
+      "question": "Một năm có bao nhiêu ngày ?",
+      "A": "2",
+      "B": "78",
+      "C": "10",
+      "D": "365",
+      "dapan": "D",
+      "id": 5
     }
   ]
 }

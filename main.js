@@ -182,6 +182,8 @@ document.querySelector('.list-add').onclick = () =>{
                 }
                 createQuestion(formData,function(){
                     getList(renderList)
+                    location.reload()    
+
                 })
          }
         }
