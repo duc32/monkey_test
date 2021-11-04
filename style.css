@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#list{
+    background-color: rgb(243, 243, 243);
+    margin:  200px;
+    border-radius: 5px;
+
+}
+.list{
+    padding: 30px 20px;
+}
+.list_question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.list_question p{
+    color: rgb(0, 89, 253);
+    font-size: 25px;
+}
+.list_content{
+    display: flex;
+    align-items: center;
+}
+.list_content p{
+    border-left: 0.5px solid rgb(187, 187, 187);
+    color: rgb(0, 109, 252);
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#content{
+    background-color: rgb(243, 243, 243);
+    margin:  200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.questions{
+    width: 65%;
+}
+.content{
+    background-color: #fff;
+    margin: 50px 30px;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+.content p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(4, 135, 250);
+}
+.content_btn button{
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid rgb(0, 25, 247);
+    border-radius: 5px;
+}
+.edit{
+    background-color: #fff;
+    margin: 0 30px;
+    border-radius: 5px;
+    padding : 10px;
+}
+.edit_label{
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 38, 252);
+    margin-bottom: 10px;
+}
+.edit_content p{
+    color: rgb(0, 89, 255);
+    font-size: 17px;
+}
+.edit_content{
+    display: flex;
+    justify-content: space-around;
+}
+.edit_btn{
+    margin: 10px auto;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+}
+.stt{
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    padding: 10px;
+    left: 0;
+    background-color: rgb(0, 17, 255);
+}
+#main{
+    margin:  200px;
+    display: none;
+}
+.btn-back{
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   background: rgb(0, 132, 255);
+   margin-right: 10px;
+}
+.btn-create,
+.btn-save{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgb(0, 255, 55);
+}
+.btn-create{
+    display: none;
+}
+.main_btn{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+}
+.main_app{
+      display: flex;
+      justify-content: space-between;
+      background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.list-add p,
+.list-ds p{
+   text-align: center;
+   padding: 10px;
+}
+.list-tt{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 80px 50px 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.list-tt button{
+    width: 20px;
+    height: 10px;
+    margin-left: 10px;
+}
+.main_app-content{
+    width: 70%;
+    text-align: center;
+}
+.main_app-content p{
+  font-size: 20px; 
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+#fname{
+    padding: 10px 325px 120px 10px
+}
+.option{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.a{
+    padding: 5px 93px 61px 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+.display{
+    display: none;
+}
+.active{
+    background-color: #0f6;
+}
+.create{
+    display: none;
+    width: 70%;
+    text-align: center;
+}

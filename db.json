@@ -1,0 +1,31 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "question": "Một năm có bao nhiêu ngày ?",
+      "A": "200 Ngày",
+      "B": "300 Ngày",
+      "C": "365 Ngày",
+      "D": "465 Ngày",
+      "dapan": "C"
+    },
+    {
+      "id": 2,
+      "question": "Con gà có mấy chân ?",
+      "A": "1 chân",
+      "B": "2 chân",
+      "C": "3 chân",
+      "D": "4 chân",
+      "dapan": "B"
+    },
+    {
+      "id": 3,
+      "question": "Con cá sống ở đâu ?",
+      "A": "Trong rừng",
+      "B": "Trên cạn",
+      "C": "Dưới nước",
+      "D": "Trên trời",
+      "dapan": "C"
+    }
+  ]
+}
