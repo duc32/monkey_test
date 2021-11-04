@@ -135,7 +135,6 @@ let Index = 1;
 document.querySelector('.list-add').onclick = () =>{
     document.querySelector('.create').style.display = 'block'
     document.querySelector(".main_app-content").style.display = "none";  
-    document.querySelector(".btn-save").style.display = "none";  
     document.querySelector('.btn-create').style.display = 'block'
 
    }
@@ -186,3 +185,6 @@ document.querySelector('.list-add').onclick = () =>{
                 })
          }
         }
+
+
+      
